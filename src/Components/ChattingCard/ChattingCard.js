@@ -28,7 +28,7 @@ export default function ChattingCard({ details, showFeedbackModal, updateChat, s
             ))
         }
 
-    }, [rating])
+    }, [rating,isRating,details.id,updateChat])
 
     return (
         <Stack
